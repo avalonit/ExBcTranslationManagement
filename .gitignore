@@ -204,3 +204,4 @@ Alberto Valenti_Business Central Notification App Sample_3.0.0.16.app
 .vscode/
 *.xlf
 launch.json
+*.app
