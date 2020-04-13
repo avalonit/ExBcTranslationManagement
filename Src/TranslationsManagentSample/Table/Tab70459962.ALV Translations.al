@@ -1,4 +1,4 @@
-table 70359962 "ALV Translations"
+table 70459962 "ALV Translations"
 {
     caption = 'Traslations';
     DataPerCompany = true;

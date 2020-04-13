@@ -1,24 +1,18 @@
-page 70359948 "ALV Translations List"
+page 70459947 "ALV Translations Page"
 {
-    PageType = List;
+    PageType = Card;
     SourceTable = "ALV Translations";
     ApplicationArea = All;
     UsageCategory = Lists;
-    Caption = 'Messages List';
+    Caption = 'Translations Page';
 
     layout
     {
-        area(Content)
+
+        area(content)
         {
-            repeater(Group)
+            group(General)
             {
-                field("TranslationCode"; "TranslationCode")
-                {
-                    ApplicationArea = All;
-                    Caption = 'TranslationCode';
-                    NotBlank = true;
-                    ShowMandatory = true;
-                }
 
                 field(OriginalText; OriginalText)
                 {
@@ -42,16 +36,10 @@ page 70359948 "ALV Translations List"
                 }
 
 
-
-
             }
         }
-        area(Factboxes)
-        {
 
-        }
+
     }
-
-
 
 }
